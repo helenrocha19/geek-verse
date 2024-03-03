@@ -1,0 +1,43 @@
+.center {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 16px;
+}
+.espacamento {
+  margin: 8px 0;
+}
+.bacaxi {
+  border: 2px solid red;
+  
+}
+.logo {
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  border: 2px solid grey;
+  align-self: center;
+  margin: 60px;
+}
+.senha {
+  text-align: right;
+}
+.mt-46 {
+  margin-top: 46px;
+}
+.inscreva-se {
+  text-align: center;
+  margin-top: 12px;
+}
+.ou {
+  text-align: center;
+  margin-top: 12px;
+}
+.login-redes {
+  display: flex;
+  align-self: center;
+  margin-top: 12px;
+}
+.mr-12 {
+  margin-right: 16px;
+}

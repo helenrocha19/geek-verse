@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Geek Verse</title>
-    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="stylesheet" type="text/css" href="css/login.css" />
     <link
       rel="stylesheet"
       href="./node_modules/bootstrap/dist/css/bootstrap.min.css"
@@ -12,23 +12,21 @@
   </head>
   <body>
     <section class="center">
-      <h1>LOGIN</h1>
-      <input type="text" name="email" id="email" />
-      <input type="text" name="senha" id="senha" />
-      <button type="button" class="btn btn-primary" onclick="irParaInicio()">Login</button>
-    </section>
+      <div class="logo"></div>
+      <input class="espacamento" type="text" name="email" id="email" />
+      <input class="espacamento" type="text" name="senha" id="senha" />
+      <span class="senha"> Esqueceu sua senha? <a href="link">Clique aqui</a></span> 
+      
+      <button type="button" class="btn btn-primary mt-46" onclick="irParaInicio()">Avançar</button>
+      <span class="inscreva-se"> Não possui uma conta? <a href="link">Inscreva-se</a></span>
+      <span class="ou"> ou </span>
+      <div class="login-redes">
+        <button type="button" class="btn btn-secondary mr-12 ">Gmail</button> 
+        <button type="button" class="btn btn-secondary">Facebook</button>
+      </div>
+    </section><!--NÃO ULTTAPASSAR-->
     <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-    <style>
-      .center {
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-        padding: 16px;
-      }
-      input {
-        margin: 8px 0;
-      }
-    </style>
+
     <script>
         function irParaInicio() {
             window.location.href = "inicio.html";
