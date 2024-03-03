@@ -1,17 +1,22 @@
 @import '~bootstrap/dist/css/bootstrap.min.css';
 
+.navbar>.container-fluid, .navbar>.container-lg, .navbar>.container-md, .navbar>.container-sm, .navbar>.container-xl, .navbar>.container-xxl {
+  display: flex;
+  justify-content: center;
+}
 .container {
   padding: 20px;
 }
-footer {
-  position: absolute;
+
+.footer {
+  position: fixed;
   bottom: 0;
-  width: 100%;
-  height: 100px;
-  background-color: #333;
-  color: white;
-  padding: 10px;
-  text-align: center;
+  left: 0;
+  width: 100%; /* Faz com que o rodapé ocupe toda a largura da página */
+  background-color: #333; /* Cor de fundo do rodapé */
+  color: #fff; /* Cor do texto */
+  padding: 20px; /* Espaçamento interno do rodapé */
+  text-align: center; /* Alinha o conteúdo do rodapé ao centro */
 }
 .carregando {
   display: flex;
