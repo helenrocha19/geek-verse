@@ -16,3 +16,4 @@ function noticiaSelecionada(not) {
     return noticia[not]()
 }
 noticiaSelecionada(noticia);
+

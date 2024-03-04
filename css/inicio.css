@@ -52,8 +52,7 @@
   position: absolute;
   bottom: 20px;
   left: 20px;
-  color: white;
-  border: 1px solid purple;
+  color: white; 
 }
 
 .noticia-conteudo h2 {
