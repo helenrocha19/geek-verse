@@ -7,16 +7,19 @@
   border: 1px solid red;
   height: 200px;
   width: 374px;
+  position: relative; 
 }
 .noticia-1 {
   position: relative;
   height: 260px;
   width: 350px;
-  align-self: center;
   margin: 8px 0;
+  align-self: center;
   background-image: url("../img/harry-potter.jpg");
   background-size: cover;
   background-position: top;
+  border-radius: 50px;
+  text-align: center;
 }
 .noticia-2 {
   position: relative;
@@ -27,6 +30,8 @@
   background-image: url("../img/marvel.jpg");
   background-size: cover;
   background-position: top;
+  text-align: center;
+  border-radius: 50px;
 }
 .noticia-3 {
   position: relative;
@@ -37,6 +42,8 @@
   background-image: url("../img/matrix.jpg");
   background-size: cover;
   background-position: top;
+  text-align: center;
+  border-radius: 50px;
 }
 .noticia-4 {
   position: relative;
@@ -47,6 +54,8 @@
   background-image: url("../img/Studio-ghibli.jpg");
   background-size: cover;
   background-position: top;
+  text-align: center;
+  border-radius: 50px;
 }
 .noticia-conteudo {
   position: absolute;
