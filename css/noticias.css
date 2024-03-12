@@ -1,3 +1,27 @@
-.noticia-1 {
-    border: solid red;
+.content {
+    align-items: center;
 }
+.conteudo-noticia-1 {
+    text-align: center;
+    padding: 5px;
+}
+
+.conteudo-noticia-2 {
+    text-align: center;
+}
+
+.conteudo-noticia-3 {
+    text-align: center;
+}
+.conteudo-noticia-4 {
+    text-align: center;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+
